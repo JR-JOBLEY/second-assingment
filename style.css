@@ -45,6 +45,7 @@ body {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: initial;
 }
 .section-title {
     color: var(--bold-text-color);
@@ -142,7 +143,8 @@ nav ul li .fa-youtube {
     font-weight: 800;
     font-size: 5.3rem;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    -webkit-background-clip: text;
+    -webkit-background-clip: text ;
+    background-clip: initial;
     -webkit-text-fill-color: transparent;
 }
 .banner1-container .banner-content ul {
@@ -210,9 +212,7 @@ nav ul li .fa-youtube {
 .games-videos-container .section-description {
     padding: 8px 0;
 }
-.games-videos-container .item {
-    /* position: relative; */
-}
+
 .games-videos-container .item img {
     width: 100%;
 }
@@ -632,9 +632,7 @@ footer ul li a {
     .feature-content {
         text-align: center;
     }
-    .banner1-container .banner-content {
-        
-    }
+    
 
     /* Spacing */
     .nav-container {
